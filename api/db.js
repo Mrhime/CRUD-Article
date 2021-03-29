@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
-// mongodb database connection string. change it as per your needs. here "mydb" is the name of the database. You don't need to create DB from mongodb terminal. mongoose create the db automatically.
-mongoose.connect('mongodb+srv://user:user@cluster0.8oyqn.mongodb.net/crud_db?retryWrites=true&w=majority', {
+
+mongoose.connect('mongodb://mongo/crud', {
                             useNewUrlParser: true,
                             useUnifiedTopology: true,
                             useFindAndModify: false,

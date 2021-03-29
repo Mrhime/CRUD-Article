@@ -15,4 +15,9 @@ $ npm run start
 
 # generate static project
 $ npm run generate
-
+```
+## Как запустить докер 
+```bash
+# запуск докера, смотреть адрес : localhost:3000
+$ docker-compose up --build -d
+```

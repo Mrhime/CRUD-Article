@@ -1,0 +1,17 @@
+version: "3.3"
+
+services:
+
+  nuxt:
+    
+    build: .
+    container_name: nuxt_app
+    
+    ports:
+      - "3000:3000"
+  mongo:
+    container_name: mongo
+    hostname: mongo
+    image: mongo
+    ports:
+      - "27017:27017"
